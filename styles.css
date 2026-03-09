@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+.main-content-wrapper {
+  height: 450px;
+  width: 650px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/images/pexelsbg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-content-wrapper img {
+  height: 300px;
+  width: 400px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 20px;
+}
+.child-element {
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child-element h1 {
+  font-size: x-large;
+  font-weight: 400;
+}
+.second-content-wrapper {
+  height: 500px;
+  width: 300px;
+  border-radius: 20px;
+  background-image: url(assets/images/street.jpg);
+  background-size: cover;
+  background-position: top;
+}
+.main-parent {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.top-logo {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-div {
+  height: 100%;
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-div img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+}
